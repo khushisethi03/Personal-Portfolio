@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi's Portfolio</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+ <div class="container">
+    <header>
+        <div >
+            <nav class="navcontainer">
+                  <div class="left">
+                  <h1>Khushi</h1>
+                  </div>
+                  <div class="right">
+                      <ul id="navitems">
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#projects">Project</a></li>
+                      <li><a href="#contact">Contact Me</a></li>
+                  </ul>
+                  </div>
+              </nav>
+      </div>
+    </header>
+    <main>
+        <section class="firstSection" id="home">
+            <div class="faded-text">Khushi</div>
+            <div class="leftSection">
+                <div class="leftSection-heading"><h3>Hi,I am Khushi</h3></div>
+                <div class="leftSection-heading leftSection-subheading">I am a <span id="element"></span></div>
+                
+                <div class="description">
+                    I am a aspiring web developer and here is my portfolio website.
+                    Here you can see my projects that I formed using HTML,CSS.
+                    <br><br>
+                    I have understanding of HTML,CSS ,C ,C++ language.<br><br>
+                    I am a passionate person always detrmined to learn something new to boost up my skills.</div>
+                    <div class="links">
+                        <a href="https://github.com/khushisethi03"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.instagram.com/khushi8250/"><i class='bx bxl-instagram'></i></a>
+                        <a href="www.linkedin.com/in/khushi-sethi-b48678275"><i class='bx bxl-linkedin-square'></i> </a>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn">Download Resume</button>
+                    </div>
+                
+            </div>
+            <div class="rightSection">
+                <img src="PngItem_41675.png">
+            </div>
+            
+        </section>
+        
+        <section class="secondSection" id="projects">
+            <h1>Projects</h1>
+             <div class="portfolio-content">
+                
+                <div class="block">
+                    <img src="netflix-homepage.jpg" >
+                <div class="block-layer">
+                    <h5>Netflix</h5>
+                    <p>Clone of Netflix Homepage created using HTML and CSS. </p>
+                         
+                        <button><a href="https://github.com/khushisethi03/Netflix/blob/main/index.html">Visit</a> </button>
+                </div>
+               
+                </div>
+                <div class="block">
+                    <img src="Portfolio.png" >
+                    <div class="block-layer">
+                        <h5>Personal Portfolio</h5>
+                        <p>A portfolio website created using HTML,CSS and a little JS. </p>
+                        <button><a href="http://127.0.0.1:5500/index.html">Visit</a></button>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <img src="Food-Recipes-Website-Theme.jpg" >
+                    <div class="block-layer">
+                        <h5>Recipe website</h5>
+                        <p>A recipe website conisting of 3 or 4 recipes.</p>
+                        <button><a href="https://github.com/khushisethi03/Recipe-website">Visit</a></button> 
+                    </div>
+                    
+                </div>
+            </div>
+             
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Coder','Front-End Developer'],
+          loop:true,
+          typeSpeed: 100,
+          backSpeed:80,
+          backDelay:1000,
+        });
+      </script>
+    
+        <section class="contact-section">
+            <div class="heading"> <h2> Contact Me</h2></div>
+            <div class="contacttext">
+                
+                <div class="textc"><br>
+                    <span>&#128231; :khushisethi@gmail.com
+                     <br>
+                    <span>&#128241; :78********</span>
+                        
+                    </span>
+                
+                <br>
+                <br>
+                <div class="links">
+                    <a href="https://github.com/khushisethi03"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/khushi8250/"><i class='bx bxl-instagram'></i></a>
+                    <a href="www.linkedin.com/in/khushi-sethi-b48678275"><i class='bx bxl-linkedin-square'></i> </a>
+                </div>
+            </div>
+            
+            
+            <div class="contact" id="contact">
+                
+                    <form>
+                        <h3>Contact Form</h3>
+                    <input type="text" class="formtext" placeholder="Full Name">
+                    <input type="email" class="formtext" placeholder="Email address">
+                    <textarea name=""  cols="30" rows="8" placeholder="Your message"></textarea>
+                    <button class="butn">Send</button>
+                </form></div>
+            </div>
+            
+            
+        </section>
+        <footer class="footer-section">
+            <div >
+                <ul class="ref">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        <span class="copyright">
+            @khushiPortfolio,Copyright &#169; 2023 All rights reserved
+        </span>
+    </footer>
+ </div>
+    
+   
+</body>
+</html>
